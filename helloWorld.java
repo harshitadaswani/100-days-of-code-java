@@ -67,5 +67,9 @@ public class helloWorld {
     double kg = p * 0.45359237d;
     System.out.println("Converted Kilograms:"+kg);
 
+    char f ='a';
+    char g ='\u0000'; //0
+    System.out.println(f);
+    System.out.println(g);
   }
 }
