@@ -1,6 +1,6 @@
 public class leapyear {
   public static void main(String[] args){
-  int num = 2002;
+  int num = 2004;
   isLeapYear(num);
   }
 
