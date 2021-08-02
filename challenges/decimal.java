@@ -1,7 +1,7 @@
 public class decimal  {
   
   public static void main(String[] args)  {
-    areEqualByThreeDecimalPlaces(3.175, 3.176);
+    areEqualByThreeDecimalPlaces(3.1756, 3.176);
   }
 
   public static boolean areEqualByThreeDecimalPlaces(double one, double two)  {
