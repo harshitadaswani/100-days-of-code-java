@@ -7,6 +7,7 @@ public class methodOverload{
 
   public static double calcFeetsandInchesToCms(double feet, double inches) {
     if((feet<0) || ((inches<0) && (inches>12)))  {
+      System.out.println("Invalid value");
       return -1;
     }
     else  {
